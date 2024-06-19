@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-image: url("t2.jpg");
+    background-size: ;
+}
+div{
+    height: 150px;
+    width: 100px;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+#container {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content:flex-start;
+    flex-wrap: wrap;
+    background-image: url("trio.jpg");
+    background-size: contain;
+}
+#box1 {
+    background-color: aqua;
+    background-image: url("t2.jpg");
+    background-size: cover;
+}
+#box2 {
+    background-color: rgb(211, 62, 89);
+    background-image: url("trio.jpg");
+    background-size: cover;
+    align-self:flex-end;
+}
+#box3 {
+    background-color: green;
+    background-image: url("tree.jpg.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 170px;
+}
+#box4 {
+    background-color: orange;
+}
+#box5 {
+    background-color: gray;
+    align-self:center;
+
+}

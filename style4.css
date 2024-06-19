@@ -1,0 +1,42 @@
+h1{
+    position: static;
+    background-image: -moz-repeating-radial-gradient();
+    background-color: aqua;
+    background-image: url("back.jpg");
+    border-style: groove;
+}
+
+div{
+  height: 100px;
+  width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display:flow-root;
+}
+#box1 {
+    background-image: url("HD-wallpaper-hanuman-in-black-smoke-background-hanuman.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    
+}
+#box2 {
+    background-color:green;
+    background-image: url("t2.jpg");
+    background-size: cover;
+}
+#box3 {
+    background-color: yellow;
+    background-image: url("trio.jpg");
+    background-size:cover ;
+}
+#box4 {
+    background-color: pink;
+    background-image: url("tree.jpg.jpg");
+    background-size: cover;
+}
+body {
+    background-image:url("back.jpg") ;
+    background-size: cover;
+}
